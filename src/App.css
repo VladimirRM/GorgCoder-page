@@ -167,7 +167,16 @@ text-left{
 
 .btn-item{
   color: var(--white-color);
-   
+   border-radius: 30px;
+   border:  1px solid var(--white-color);
+   transition: var(--transition);
+}
+.btn-groups .btn-item:first-child{
+margin-right: 2.6rem;
+}
+.btn-groups .btn-item:hover{
+  background-color: transparent;
+  border-color: var(--white-color)!important;
 }
 
 
