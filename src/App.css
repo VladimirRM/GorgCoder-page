@@ -102,13 +102,13 @@ text-left{
 .text-black{
   color: var(--black-color);
 }
-text-brown{
+.text-brown{
   color: var(--brown-color)
 }
-text-grey{
+.text-grey{
   color: var(--grey-color)
 }
-text-dark{
+.text-dark{
   color: var(--dark-color)
 }
 .fw2{font-weight: 200;}
