@@ -51,6 +51,47 @@ a{
 }
 .container{
   max-width: 1200px;
-  
+  margin: 0 auto;
+  padding: 0 2rem;
 }
+
+.section-p{
+  padding:  10rem 00;
+
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+
+.flex-col{
+  flex-direction: column;
+
+}
+.flex-c{
+  justify-content: center;
+}
+.flex-sb{
+  justify-content: space-between;
+}
+.grid{
+  display: grid;
+  align-items: center;
+}
+.text{
+  line-height: 1.7 ;
+  font-weight: 300;
+  opacity: 0.9;
+  font-size: 1.6rem;
+}
+.text-center{
+  text-align: center; 
+}
+text-left{
+  text-align: left;
+}
+.text-capitalize{
+  text-transform: capitalize;
+}
+
 
