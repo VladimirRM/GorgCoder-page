@@ -27,11 +27,19 @@ const Navbar = () => {
                                 </li>
                                 <li className='nav-item'>
                                     <Link to='/'  className='nav-link text-white ls-1 
-                                    text-uppercase fw-6 fs-22'>Home</Link>
+                                    text-uppercase fw-6 fs-22'>services</Link>
                                 </li>
                                 <li className='nav-item'>
                                     <Link to='/'  className='nav-link text-white ls-1 
-                                    text-uppercase fw-6 fs-22'>Home</Link>
+                                    text-uppercase fw-6 fs-22'>works</Link>
+                                </li>
+                                <li className='nav-item'>
+                                    <Link to='/'  className='nav-link text-white ls-1 
+                                    text-uppercase fw-6 fs-22'>about me</Link>
+                                </li>
+                                <li className='nav-item'>
+                                    <Link to='/'  className='nav-link text-white ls-1 
+                                    text-uppercase fw-6 fs-22'>contact</Link>
                                 </li>
                             </ul>
                         </div>
