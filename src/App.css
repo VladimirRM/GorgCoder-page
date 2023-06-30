@@ -129,6 +129,20 @@ text-dark{
 .bg-black{
   background-color: var(--white-color);
 }
+.bg-grey{
+  background-color: var(--grey-color);
+}
+.bg-light-grey{
+  background-color: var(--light-grey-color);
+}
+.bg-brown{
+  background-color: var(--brown-color);
+}
+.bg-dark{
+  background-color: var(--dark-color);
+}
+
+
 
 
 
