@@ -11,7 +11,8 @@ const Header = () => {
             <h1 className='text-white fw-6 header-title'>Hello i'm <span className='text-brown'>
               Web & Graphic Designer  </span> Living Kyiv Ukraine </h1>
               <div className='btn-groups flex'>
-                
+                <button type='button ' className='btn-item bg-brown fw-4 ls-2'>See Works</button>
+                <button type='button ' className='btn-item bg-dark fw-4 ls-2'>Contact Me</button>
               </div>
         </div>
        </div>
