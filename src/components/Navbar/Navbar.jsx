@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
 import {FaBars, FaTimes}  from 'react-icons/fa'
 
 const Navbar = () => {
+    const [navToggler, setNavToggler]  = useState(false)
+    const closeNavbar = () => setNavToggler(false)
   return (
     <nav className='navbar'>
         <div className="container">
@@ -12,12 +14,18 @@ const Navbar = () => {
                     <Link  to='/' className='navbar-brand text-uppercase fw-7 text-white ls-2 fs-22'>
                         Volodymyr
                     </Link>
-                    <button type='button' className='navbar-open-btn text-white'>
+                    <button type='button' className='navbar-open-btn text-white'
+                     onClick={()=> setNavToggler(!navToggler)}
+                    >
                         <FaBars size={30} />
                     </button>
 
-                        <div className='navbar-collapse'>
-                            <button  className='navbar-close-btn text-white'type='button' >
+                        <div className={navToggler ? 'navbar-collapse show-navbar-collapse':
+                        'navbar-collapse'
+                    }>
+                            <button  className='navbar-close-btn text-white'type='button'
+                             onClick={closeNavbar}
+                            >
                               <FaTimes size={30}/>
                             </button>
                             <ul className='navbar-nav'>

@@ -179,6 +179,11 @@ margin-right: 2.6rem;
   border-color: var(--white-color)!important;
 }
 
+.resize-animation-stopper *{
+      animation: none!important;
+      transition: none!important;
+}
+
 
 
 
